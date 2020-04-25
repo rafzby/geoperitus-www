@@ -1,11 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
-
-* {
-    box-sizing: border-box;
-}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -120,16 +120,16 @@ section {
 }
 
 .c-contact__row {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    justify-content: space-around;
+    margin: 3rem 0 0 0;
+    row-gap: 4em;
+    grid-template-columns: auto;
 }
 
 .c-contact__row__item {
     text-align: left;
     line-height: 1.8rem;
-    flex: 100%;
-    max-width: 100%;
-    padding: 3em 6em 0 6em;
 }
 
 .c-contact__row__item a:link, a:visited {
@@ -165,19 +165,25 @@ section {
 }
 
 .c-gallery__row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 1rem;
+    display: grid;
+    justify-content: space-between;
+    margin: 3rem 0 0 0;
+
+
+    
+    display: grid;
+    column-gap: 0.9rem;
+    grid-template-columns: 10rem 10rem 10rem 10rem;
+    grid-template-rows: 10rem;
 }
 
 .c-gallery__row__item {
-
-    background-color: green;
-    margin: 1rem
+  
 }
 
 .c-gallery__row__item img {
-
+    width: 100%;
+    height: 100%;
 }
 
 .c-projects {
@@ -228,9 +234,8 @@ body > footer p {
     :root {
        
     }
-    .c-contact__row__item  {
-        flex: 50%;
-        max-width: 50%;
+    .c-contact__row  {
+        grid-template-columns: auto auto;
     }
 }
 
@@ -241,10 +246,8 @@ body > footer p {
 }
 
 @media screen and (min-width: 992px) {
-    .c-contact__row__item  {
-        flex: 25%;
-        max-width: 25%;
-        padding: 3em 0em 0 0em;
+    .c-contact__row  {
+        grid-template-columns: auto auto auto auto;
     }
 }
 
