@@ -123,7 +123,7 @@ section {
     display: grid;
     justify-content: space-around;
     margin: 3rem 0 0 0;
-    row-gap: 4em;
+    row-gap: 2em;
     grid-template-columns: auto;
 }
 
@@ -166,15 +166,10 @@ section {
 
 .c-gallery__row {
     display: grid;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 3rem 0 0 0;
-
-
-    
-    display: grid;
-    column-gap: 0.9rem;
-    grid-template-columns: 10rem 10rem 10rem 10rem;
-    grid-template-rows: 10rem;
+    row-gap: 2em;
+    grid-template-columns: auto;
 }
 
 .c-gallery__row__item {
