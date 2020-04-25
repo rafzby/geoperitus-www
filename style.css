@@ -47,7 +47,6 @@ table {
 	border-spacing: 0;
 }
 
-
 /* Fonts */
 @font-face {
     font-family: hurmeDesign;
@@ -55,8 +54,13 @@ table {
     font-weight: 600;
   }
 
-/* Page Styles */
+  @font-face{
+      font-family: openSans;
+      src: url(fonts/OpenSans-Light.ttf);
+      font-weight: lighter;
+  }
 
+/* Page Styles */
 .h1 {
     font-size: 8.125rem;
 }
@@ -69,19 +73,54 @@ table {
     font-size: 3.125em;
     font-family: "hurmeDesign";
     font-weight: 600;
+    overflow: none;
 }
 
+.h3::after,
 .h3::before {
     content: '\02022';
     color: #3cb878;
     font-size: 0.8em;
-    margin-right: 0.4em;
+    vertical-align: 10%;
+}
+
+.h3::before {
+    padding: 0 0.2em 0 0;
+}
+
+.h3::after {
+    padding: 0 0 0 0.2em;
 }
 
 section {
     max-width: 100%;
     box-sizing: border-box;
 }
+
+.c-contact {
+    padding: 20rem 0 10rem;
+    background-color: #3cb878;
+    color: white;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.c-contact .h3::before,
+.c-contact .h3::after {
+    color: inherit;
+    opacity: 0.6;
+}
+
+.o-main {
+    width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 0 1rem;
+}
+
 
 body > footer {
     background-color: #231f20;
@@ -92,7 +131,8 @@ body > footer {
     padding-bottom: 1rem;
 }
 
-/* poprawić */
-body > footer > p {
+body > footer p {
     opacity: 0.3;
+    font-family: "openSans";
+    font-weight: lighter;
 }
