@@ -156,6 +156,27 @@ section {
     opacity: 0.6;
 }
 
+.c-gallery {
+    padding: 10rem 0 10rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.c-projects {
+    padding: 10rem 0 10rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.c-offer {
+    padding: 10rem 0 10rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
 .o-main {
     width: 80rem;
     margin-left: auto;
