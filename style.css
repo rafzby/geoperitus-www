@@ -142,6 +142,13 @@ body > footer p {
     padding: 0 0 0 0.2em;
 }
 
+.h4 {
+    font-family: "openSans";
+    font-weight: 600;
+    font-size: 1.25rem;
+    display: inline-block
+}
+
 section {
     max-width: 100%;
 }
@@ -171,6 +178,14 @@ section {
     justify-content: center;
 }
 
+.o-layout--vertically-centered {
+    align-items: center;
+}
+
+.o-layout__item--1 {
+    width: 8.33%;
+}
+
 .o-layout__item--3 {
     width: 25%;
 }
@@ -179,11 +194,19 @@ section {
     width: 50%;
 }
 
+.o-layout__item--11 {
+    width: 91.66%;
+}
+
 .o-layout__item--12 {
     width: 100%;
 }
 
 @media screen and (min-width: 320px) {
+    .o-layout__item--1--xxs {
+        width: 8.33%;
+    }
+
     .o-layout__item--3--xxs {
         width: 25%;
     }
@@ -192,12 +215,20 @@ section {
         width: 50%;
     }
 
+    .o-layout__item--11--xxs  {
+        width: 91.66%;
+    }
+
     .o-layout__item--12--xxs {
         width: 100%;
     }
 }
 
 @media screen and (min-width: 480px) {
+    .o-layout__item--1--xs {
+        width: 8.33%;
+    }
+
     .o-layout__item--3--xs {
         width: 25%;
     }
@@ -206,12 +237,20 @@ section {
         width: 50%;
     }
 
+    .o-layout__item--11-xs {
+        width: 91.66%;
+    }
+
     .o-layout__item--12--xs {
         width: 100%;
     }
 }
 
 @media screen and (min-width: 640px) {
+    .o-layout__item--1--s {
+        width: 8.33%;
+    }
+
     .o-layout__item--3--s {
         width: 25%;
     }
@@ -220,12 +259,20 @@ section {
         width: 50%;
     }
 
+    .o-layout__item--11--s {
+        width: 91.66%;
+    }
+
     .o-layout__item--12--s {
         width: 100%;
     }
 }
 
 @media screen and (min-width: 784px) {
+    .o-layout__item--1--m {
+        width: 8.33%;
+    }
+
     .o-layout__item--3--m {
         width: 25%;
     }
@@ -234,12 +281,20 @@ section {
         width: 50%;
     }
 
+    .o-layout__item--11--m {
+        width: 91.66%;
+    }
+
     .o-layout__item--12--m {
         width: 100%;
     }
 }
 
 @media screen and (min-width: 1024px) {
+    .o-layout__item--1--l {
+        width: 8.33%;
+    }
+
     .o-layout__item--3--l {
         width: 25%;
     }
@@ -248,12 +303,20 @@ section {
         width: 50%;
     }
 
+    .o-layout__item--11--l {
+        width: 91.66%;
+    }
+
     .o-layout__item--12--l {
         width: 100%;
     }
 }
 
 @media screen and (min-width: 1280px) {
+    .o-layout__item--1--xl {
+        width: 8.33%;
+    }
+
     .o-layout__item--3--xl {
         width: 25%;
     }
@@ -262,18 +325,30 @@ section {
         width: 50%;
     }
 
+    .o-layout__item--11--xl {
+        width: 91.66%;
+    }
+
     .o-layout__item--12--xl {
         width: 100%;
     }
 }
 
 @media screen and (min-width: 1440px) {
+    .o-layout__item--1--xxl {
+        width: 8.33%;
+    }
+
     .o-layout__item--3--xxl {
         width: 25%;
     }
 
     .o-layout__item--6--xxl {
         width: 50%;
+    }
+
+    .o-layout__item--11--xxl {
+        width: 91.66%;
     }
 
     .o-layout__item--12--xxl {
@@ -297,6 +372,11 @@ section {
     font-weight: bold;
     cursor: pointer;
     line-height: 1.3em;
+}
+
+.c-button:hover {
+    background: #3cb878;
+    color: white;
 }
 
 /* Contact Section */
@@ -385,6 +465,49 @@ section {
 
 /* Offer Section */
 .c-offer {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background: #f8f8f8;
+}
+
+.c-offer__container {
+    text-align: left;
+}
+
+.c-offer__list__header {
+    margin-bottom: .8em;
+}
+
+.c-offer__list__header__decoration {
+    text-align: center;
+}
+
+.c-offer__list__header__decoration img {
+    vertical-align: middle;
+    width: 60%;
+}
+
+.c-offer__list {
+    font-size: .9rem;
+    line-height: 1.6rem;
+    font-family: "openSans";
+    font-weight: lighter;
+}
+
+.c-offer__list__item::before {
+    content: '\02022';
+    display: inline-block;
+    font-size: 1.2em;
+    width: 1em;
+    color: #3cb878;
+    font-weight: bold;
+    vertical-align: middle;
+    line-height: 1.6rem;
+}
+
+/* About Section */
+.c-about {
     text-align: center;
     position: relative;
     overflow: hidden;
