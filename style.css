@@ -52,15 +52,21 @@ table {
     font-family: hurmeDesign;
     src: url(fonts/Hurme\ Design\ -\ HurmeGeometricSans4\ SemiBold_0.otf);
     font-weight: 600;
-  }
+}
 
-  @font-face{
-      font-family: openSans;
-      src: url(fonts/OpenSans-Light.ttf);
-      font-weight: lighter;
-  }
+@font-face {
+    font-family: hurmeDesign;
+    src: url(fonts/Hurme\ Design\ -\ HurmeGeometricSans4\ Bold_0.otf);
+    font-weight: bold;
+}
 
-  @font-face{
+@font-face {
+    font-family: openSans;
+    src: url(fonts/OpenSans-Light.ttf);
+    font-weight: lighter;
+}
+
+@font-face {
     font-family: openSans;
     src: url(fonts/OpenSans-Semibold.ttf);
     font-weight: 600;
@@ -105,11 +111,13 @@ body > footer p {
 
 /* Headers */
 .h1 {
-    font-size: 8.125rem;
+    font-size: 8rem;
 }
 
 .h2 {
-  font-size: 3.75em;
+  font-size: 3.75rem;
+  font-family: "hurmeDesign";
+  font-weight: bold;
 }
 
 .h3 {
@@ -141,14 +149,6 @@ section {
 .o-section {
     padding: 5rem 0 5rem;
 }
-
-/*
-@media screen and (min-width: 1024px) {
-    .o-section{
-        padding: 8rem 0 8rem;
-    }
-}
-*/
 
 .o-main {
     width: 80rem;
@@ -281,6 +281,24 @@ section {
     }
 }
 
+.c-cta {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.c-button {
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 2em;
+    padding: 0.75em 2em;
+    background: white;
+    color: #3cb878;
+    font-family: "hurmeDesign";
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 1.3em;
+}
+
 /* Contact Section */
 .c-contact {
     background-color: #3cb878;
@@ -333,7 +351,14 @@ section {
 }
 
 .c-gallery__item {
-    padding: 1em;
+    display: inline-block;
+    width: 15em;
+    height: 15em;
+    margin: 1em;
+    padding: .5em;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 1px solid #e1e1e1;
 }
 
 .c-gallery__item img {
@@ -343,9 +368,19 @@ section {
 
 /* Projects Section */
 .c-projects {
+    color: white;
     text-align: center;
     position: relative;
     overflow: hidden;
+    padding: 10rem 0 10rem;
+    background: url(gfx/banner1.png) no-repeat;
+    background-size: cover;
+}
+.c-projects p {
+    line-height: 1.8rem;
+    font-size: 1.25rem;
+    font-family: "openSans";
+    font-weight: 600;
 }
 
 /* Offer Section */
