@@ -145,7 +145,7 @@ body > footer p {
 .h4 {
     font-family: "openSans";
     font-weight: 600;
-    font-size: 1.25rem;
+    font-size: 1rem;
     display: inline-block
 }
 
@@ -192,6 +192,10 @@ section {
 
 .o-layout__item--6 {
     width: 50%;
+}
+
+.o-layout__item--8 {
+    width: 66.66%;
 }
 
 .o-layout__item--11 {
@@ -279,6 +283,10 @@ section {
 
     .o-layout__item--6--m {
         width: 50%;
+    }
+
+    .o-layout__item--8--m {
+        width: 66.66%;
     }
 
     .o-layout__item--11--m {
@@ -471,21 +479,27 @@ section {
     background: #f8f8f8;
 }
 
-.c-offer__container {
+.c-offer__content {
     text-align: left;
 }
 
 .c-offer__list__header {
-    margin-bottom: .8em;
+    margin-bottom: .4em;
+}
+
+.c-offer__list__container {
+    margin-bottom: 1em;
 }
 
 .c-offer__list__header__decoration {
-    text-align: center;
+    display: inline-block;
+    text-align: right;
+    padding-right: 0.5em;
 }
 
 .c-offer__list__header__decoration img {
     vertical-align: middle;
-    width: 60%;
+    width: 2em;
 }
 
 .c-offer__list {
