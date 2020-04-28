@@ -202,6 +202,14 @@ section {
     width: 66.66%;
 }
 
+.o-layout__item--9 {
+    width: 75%;
+}
+
+.o-layout__item--10 {
+    width: 83.33%;
+}
+
 .o-layout__item--11 {
     width: 91.66%;
 }
@@ -295,6 +303,14 @@ section {
 
     .o-layout__item--8--m {
         width: 66.66%;
+    }
+
+    .o-layout__item--9--m {
+        width: 75%;
+    }
+    
+    .o-layout__item--10--m {
+        width: 83.33%;
     }
 
     .o-layout__item--11--m {
@@ -539,7 +555,7 @@ section {
     overflow: hidden;
 }
 
-.c-about__content {
+.c-about__text {
     text-align: center;
     font-size: .9rem;
     line-height: 1.6rem;
@@ -547,7 +563,7 @@ section {
     font-weight: lighter;
 }
 
-.c-about__content_text p {
+.c-about__text p {
     margin-bottom: 1em;
 }
 
@@ -567,7 +583,8 @@ section {
     font-family: "openSans";
     font-weight: 600;
     font-size: 1.2rem;
-    line-height: 1.5em;
+    margin-bottom: .5em;
+    line-height: 1.3em;
 }
 
 .c-rights__item__subtitle {
