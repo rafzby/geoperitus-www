@@ -291,8 +291,6 @@ section {
 
 .c-gallery__item {
     display: inline-block;
-    width: 15em;
-    height: 15em;
     margin: 1em;
     padding: .5em;
     cursor: pointer;
@@ -312,9 +310,14 @@ section {
     position: relative;
     overflow: hidden;
     padding: 10rem 0 10rem;
-    background: url(gfx/banner1.png) no-repeat;
+ 
+}
+
+.c-projects--background {
+    background: url(gfx/banners/projects/projects_xs.jpg);
     background-size: cover;
 }
+
 .c-projects p {
     line-height: 1.8rem;
     font-size: 1.25rem;
@@ -544,6 +547,11 @@ section {
         background: url(gfx/banners/header/header_s.jpg);
         background-size: cover;
     }
+    
+    .c-projects--background {
+        background: url(gfx/banners/projects/projects_s.jpg);
+        background-size: cover;
+    }
 }
 
 @media screen and (min-width: 784px) {
@@ -588,6 +596,11 @@ section {
         background-size: cover;
     }
 
+    .c-projects--background {
+        background: url(gfx/banners/projects/projects_m.jpg);
+        background-size: cover;
+    }
+
     .c-header {
         color: white;
         padding: 8rem 0 8rem;
@@ -627,6 +640,11 @@ section {
         background-size: cover;
     }
 
+    .c-projects--background {
+        background: url(gfx/banners/projects/projects_l.jpg);
+        background-size: cover;
+    }
+
     .c-header {
         color: white;
         padding: 10rem 0 10rem;
@@ -661,6 +679,11 @@ section {
         background: url(gfx/banners/header/header_xl.jpg);
         background-size: cover;
     }
+
+    .c-projects--background {
+        background: url(gfx/banners/projects/projects_xl.jpg);
+        background-size: cover;
+    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -689,6 +712,11 @@ section {
         background-size: cover;
     }
 
+    .c-projects--background {
+        background: url(gfx/banners/projects/projects_xxl.jpg);
+        background-size: cover;
+    }
+
     :root {
         font-size: 18px;
     }
@@ -697,6 +725,11 @@ section {
 @media screen and (min-width: 2048px) {
     .c-header--background {
         background: url(gfx/banners/header/header_2xl.jpg);
+        background-size: cover;
+    }
+
+    .c-projects--background {
+        background: url(gfx/banners/projects/projects_2xl.jpg);
         background-size: cover;
     }
 }
