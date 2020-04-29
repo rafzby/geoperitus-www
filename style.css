@@ -111,7 +111,7 @@ body > footer p {
 
 /* Headers */
 .h1 {
-    font-size: 8rem;
+    font-size: 6rem;
     font-family: "hurmeDesign";
     font-weight: 600;
 }
@@ -145,6 +145,12 @@ body > footer p {
 }
 
 .h4 {
+    font-size: 1.1rem;
+    font-family: "openSans";
+    font-weight: bold;
+}
+
+.h5 {
     font-family: "openSans";
     font-weight: 600;
     font-size: 1rem;
@@ -607,16 +613,36 @@ section {
 }
 
 .c-header__text__container {
-    display: inline-block;
-    vertical-align: middle;
+    display: block;
+}
+
+.c-header__text__container  h4 {
+    margin-top: .5em
 }
 
 .c-header__divider {
     display: inline-block;
-    margin: 0 .5em;
-    height: 8em;
-    vertical-align: middle;
-    width: .1em;
-    background: linear-gradient(transparent, white, transparent);
-    background: -webkit-linear-gradient(transparent, white, transparent);
+    height: .01em;
+    margin: 1em auto;
+    max-width: 100%;
+    width: 15em;
+    background: linear-gradient(to right,transparent, white, transparent);
+    background: -webkit-linear-gradient(to right,transparent, white, transparent);
+}
+
+@media screen and (min-width: 480px) {
+    .c-header__divider {
+        display: inline-block;
+        margin: 0 .5em;
+        height: 8em;
+        vertical-align: middle;
+        width: .01em;
+        background: linear-gradient(transparent, white, transparent);
+        background: -webkit-linear-gradient(transparent, white, transparent);
+    }
+    
+    .c-header__text__container {
+        display: inline-block;
+        vertical-align: middle;
+    }
 }
