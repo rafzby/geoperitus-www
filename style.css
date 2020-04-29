@@ -260,13 +260,20 @@ section {
 }
 
 .c-contact__item {
-    text-align: center;
     display: inline-block;
-    line-height: 1.8rem;
+    line-height: 1.5rem;
+    padding: 1em;
+    font-size: 1rem;
+    font-family: "openSans";
+    font-weight: lighter;
 }
 
-.c-contact__item {
-   padding: 1em;
+.u-align--left {
+    text-align: left;
+}
+
+.u-align--center {
+    text-align: center;
 }
 
 .c-contact__item  a:link, .c-contact__item a:visited {
@@ -276,12 +283,6 @@ section {
 .c-contact__item img {
     opacity: 0.5;
     width: 2.5rem;
-}
-
-.c-contact__item p {
-    font-size: 1.25rem;
-    font-family: "openSans";
-    font-weight: lighter;
 }
 
 .c-contact__item p span {
@@ -662,6 +663,10 @@ section {
     .o-section--10--m {
         padding: 10rem 0 10rem;
     }
+
+    .u-align--left--m {
+        text-align: left;
+    }    
 }
 
 @media screen and (min-width: 1024px) {
