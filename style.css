@@ -438,7 +438,7 @@ section {
    padding: 1em;
 }
 
-.c-contact__item a:link, a:visited {
+.c-contact__item  a:link, .c-contact__item a:visited {
     color: inherit
 }
 
