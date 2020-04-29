@@ -150,8 +150,24 @@ section {
     max-width: 100%;
 }
 
-.o-section {
+.o-section--1 {
+    padding: 1rem 0 1rem;
+}
+
+.o-section--3 {
+    padding: 3rem 0 3rem;
+}
+
+.o-section--5 {
     padding: 5rem 0 5rem;
+}
+
+.o-section--8 {
+    padding: 8rem 0 8rem;
+}
+
+.o-section--10 {
+    padding: 10rem 0 10rem;
 }
 
 .o-main {
@@ -309,8 +325,6 @@ section {
     text-align: center;
     position: relative;
     overflow: hidden;
-    padding: 10rem 0 10rem;
- 
 }
 
 .c-projects--background {
@@ -425,7 +439,6 @@ section {
 /* Page header */
 .c-header {
     color: white;
-    padding: 1rem 0 1rem;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -498,12 +511,24 @@ section {
         width: 100%;
     }
 
-    .c-header {
-        color: white;
+    .o-section--1--xs {
+        padding: 1rem 0 1rem;
+    }
+    
+    .o-section--3--xs {
+        padding: 3rem 0 3rem;
+    }
+
+    .o-section--5--xs {
         padding: 5rem 0 5rem;
-        text-align: center;
-        position: relative;
-        overflow: hidden;
+    }
+    
+    .o-section--8--xs {
+        padding: 8rem 0 8rem;
+    }
+    
+    .o-section--10--xs {
+        padding: 10rem 0 10rem;
     }
     
     .c-header__divider {
@@ -541,6 +566,26 @@ section {
 
     .o-layout__item--12--s {
         width: 100%;
+    }
+
+    .o-section--1--s {
+        padding: 1rem 0 1rem;
+    }
+    
+    .o-section--3--s {
+        padding: 3rem 0 3rem;
+    }
+
+    .o-section--5--s {
+        padding: 5rem 0 5rem;
+    }
+    
+    .o-section--8--s {
+        padding: 8rem 0 8rem;
+    }
+    
+    .o-section--10--s {
+        padding: 10rem 0 10rem;
     }
 
     .c-header--background {
@@ -601,12 +646,24 @@ section {
         background-size: cover;
     }
 
-    .c-header {
-        color: white;
+    .o-section--1--m {
+        padding: 1rem 0 1rem;
+    }
+    
+    .o-section--3--m {
+        padding: 3rem 0 3rem;
+    }
+
+    .o-section--5--m {
+        padding: 5rem 0 5rem;
+    }
+    
+    .o-section--8--m {
         padding: 8rem 0 8rem;
-        text-align: center;
-        position: relative;
-        overflow: hidden;
+    }
+    
+    .o-section--10--m {
+        padding: 10rem 0 10rem;
     }
 }
 
@@ -645,12 +702,24 @@ section {
         background-size: cover;
     }
 
-    .c-header {
-        color: white;
+    .o-section--1--l {
+        padding: 1rem 0 1rem;
+    }
+    
+    .o-section--3--l {
+        padding: 3rem 0 3rem;
+    }
+
+    .o-section--5--l {
+        padding: 5rem 0 5rem;
+    }
+    
+    .o-section--8--l {
+        padding: 8rem 0 8rem;
+    }
+    
+    .o-section--10--l {
         padding: 10rem 0 10rem;
-        text-align: center;
-        position: relative;
-        overflow: hidden;
     }
 }
 
@@ -673,6 +742,26 @@ section {
 
     .o-layout__item--12--xl {
         width: 100%;
+    }
+
+    .o-section--1--xl {
+        padding: 1rem 0 1rem;
+    }
+    
+    .o-section--3--xl {
+        padding: 3rem 0 3rem;
+    }
+
+    .o-section--5--xl {
+        padding: 5rem 0 5rem;
+    }
+    
+    .o-section--8--xl {
+        padding: 8rem 0 8rem;
+    }
+    
+    .o-section--10--xl {
+        padding: 10rem 0 10rem;
     }
 
     .c-header--background {
