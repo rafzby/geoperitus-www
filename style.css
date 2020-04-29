@@ -112,6 +112,8 @@ body > footer p {
 /* Headers */
 .h1 {
     font-size: 8rem;
+    font-family: "hurmeDesign";
+    font-weight: 600;
 }
 
 .h2 {
@@ -590,4 +592,31 @@ section {
 .c-rights__item__subtitle {
     font-family: "openSans";
     font-weight: lighter;
+}
+
+/* Page header */
+.c-header {
+    color: white;
+    padding: 10rem 0 10rem;
+    background: url(gfx/header_banner.jpeg) rgba(0, 0, 0, 0.3) no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-blend-mode: multiply;
+    position: relative;
+    overflow: hidden;
+}
+
+.c-header__text__container {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.c-header__divider {
+    display: inline-block;
+    margin: 0 .5em;
+    height: 8em;
+    vertical-align: middle;
+    width: .1em;
+    background: linear-gradient(transparent, white, transparent);
+    background: -webkit-linear-gradient(transparent, white, transparent);
 }
