@@ -72,7 +72,6 @@ table {
     font-weight: 600;
 }
 
-/* Elements */
 * {
     box-sizing: border-box;
 }
@@ -92,13 +91,10 @@ body > footer p {
     font-weight: lighter;
 }
 
-/* Font sizes */
 :root {
     font-size: 12px;
 }
 
-
-/* Headers */
 .h1 {
     font-size: 5rem;
     font-family: "hurmeDesign";
@@ -254,7 +250,7 @@ section {
     color: white;
 }
 
-/* Contact Section */
+/* Contact Us*/
 .c-contact {
     background-color: #3cb878;
     color: white;
@@ -298,7 +294,7 @@ section {
     opacity: 0.6;
 }
 
-/* Gallery Section */
+/* Gallery */
 .c-gallery {
     text-align: center;
     position: relative;
@@ -306,20 +302,17 @@ section {
 }
 
 .c-gallery__item {
-    display: inline-block;
     margin: 1em;
     padding: .5em;
     cursor: pointer;
-    box-sizing: border-box;
     border: 1px solid #e1e1e1;
 }
 
-.c-gallery__item img {
+.c-gallery__image {
     width: 100%;
-    height: 100%;
 }
 
-/* Projects Section */
+/* Projects */
 .c-projects {
     color: white;
     text-align: center;
@@ -339,7 +332,7 @@ section {
     font-weight: 600;
 }
 
-/* Offer Section */
+/* Offer */
 .c-offer {
     text-align: center;
     position: relative;
@@ -392,7 +385,7 @@ section {
     line-height: 1.6rem;
 }
 
-/* About Section */
+/* About Us*/
 .c-about {
     text-align: center;
     position: relative;
@@ -436,7 +429,7 @@ section {
     font-weight: lighter;
 }
 
-/* Page header */
+/* Header */
 .c-header {
     color: white;
     text-align: center;
@@ -503,7 +496,7 @@ section {
         width: 50%;
     }
 
-    .o-layout__item--11-xs {
+    .o-layout__item--11--xs {
         width: 91.66%;
     }
 
@@ -554,6 +547,10 @@ section {
 
     .o-layout__item--3--s {
         width: 25%;
+    }
+
+    .o-layout__item--4--s {
+        width: 33.33%;
     }
 
     .o-layout__item--6--s {
