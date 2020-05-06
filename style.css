@@ -76,6 +76,69 @@ table {
     box-sizing: border-box;
 }
 
+header {
+    display: flex;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background: white;
+    right: 0;
+    height: 4em;
+    align-items: center;
+    left: 0;
+    border-bottom: 1px solid #dedede;
+    padding: 1em;
+}
+
+.c-navbar {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.c-navbar__item {
+    margin-right: 3em;
+    font-size: .8em;
+    font-family: "openSans";
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.c-navbar__divider {
+    display: inline-block;
+    margin: 0 .5em;
+    height: 3em;
+    vertical-align: middle;
+    width: .01em;
+    background: linear-gradient(transparent, #e0e0e0, transparent);
+    background: -webkit-linear-gradient(transparent, #e0e0e0, transparent);
+}
+
+.c-phone__icon {
+    height: 1.3em;
+    margin-right: .5em;
+}
+
+.c-phone__number {
+    font-family: "openSans";
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+.c-navbar__item:link, .c-navbar__item:visited {
+    color: inherit;
+}
+
+.c-logo {
+    height: 4em;
+}
+
+main {
+    padding-top: 4em;
+}
+
 body > footer {
     background-color: #231f20;
     color: white;
