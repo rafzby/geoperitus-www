@@ -106,6 +106,10 @@ header {
     text-decoration: none;
 }
 
+.c-navbar__item:link, .c-navbar__item:visited {
+    color: inherit;
+}
+
 .c-navbar__divider {
     display: inline-block;
     margin: 0 .5em;
@@ -122,12 +126,13 @@ header {
 }
 
 .c-phone__number {
+    text-decoration: none;
     font-family: "openSans";
     font-weight: 600;
     font-size: 1.3em;
 }
 
-.c-navbar__item:link, .c-navbar__item:visited {
+.c-phone__number:link, .c-phone__number:visited {
     color: inherit;
 }
 
