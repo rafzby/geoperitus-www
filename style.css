@@ -72,11 +72,17 @@ table {
     font-weight: 600;
 }
 
+@font-face {
+    font-family: openSans;
+    src: url(fonts/OpenSans-Bold_0.ttf);
+    font-weight: bold;
+}
+
 * {
     box-sizing: border-box;
 }
 
-header {
+.c-top-bar {
     display: flex;
     box-sizing: border-box;
     position: fixed;
@@ -91,26 +97,11 @@ header {
     padding: 1em;
 }
 
-.c-navbar {
-    display: flex;
-    flex-grow: 1;
-    justify-content: flex-end;
-    align-content: center;
+.c-top-bar__logo {
+    height: 4em;
 }
 
-.c-navbar__item {
-    margin-right: 3em;
-    font-size: .8em;
-    font-family: "openSans";
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.c-navbar__item:link, .c-navbar__item:visited {
-    color: inherit;
-}
-
-.c-navbar__divider {
+.c-top-bar__divider {
     display: inline-block;
     margin: 0 .5em;
     height: 3em;
@@ -120,9 +111,22 @@ header {
     background: -webkit-linear-gradient(transparent, #e0e0e0, transparent);
 }
 
+.c-menu-item {
+    font-family: "openSans";
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.c-menu-item:link, .c-menu-item:visited {
+    color: inherit;
+}
+
+/* Phone */
 .c-phone__icon {
     height: 1.3em;
     margin-right: .5em;
+    vertical-align: middle;
 }
 
 .c-phone__number {
@@ -130,14 +134,53 @@ header {
     font-family: "openSans";
     font-weight: 600;
     font-size: 1.3em;
+    vertical-align: middle;
 }
 
 .c-phone__number:link, .c-phone__number:visited {
     color: inherit;
 }
 
-.c-logo {
-    height: 4em;
+/* Mobile Menu */
+.c-mobile-menu  {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 4em;
+    z-index: 1;
+    background: white;
+    -webkit-box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.17);
+    -moz-box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.17);
+    box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.17);
+}
+
+.c-mobile-menu__nav {
+    padding-bottom: 2rem;
+}
+
+.c-mobile-menu__item {
+    display: block;
+    padding: .6em;
+    font-size: 1.4em;
+}
+
+/* Mobile Menu */
+.c-desktop-menu {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.c-desktop-menu__item {
+    margin-right: 3em;
+    font-size: .8em;
+}
+
+.c-mobile-menu__phone {
+    padding-top: 2rem;
+    border-top: 1px solid #e0e0e0;
 }
 
 main {
@@ -216,6 +259,10 @@ section {
 
 .o-section--1 {
     padding: 1rem 0 1rem;
+}
+
+.o-section--2 {
+    padding: 2rem 0 2rem;
 }
 
 .o-section--3 {
@@ -527,6 +574,7 @@ section {
     width: 15em;
     background: linear-gradient(to right,transparent, white, transparent);
     background: -webkit-linear-gradient(to right,transparent, white, transparent);
+    background: -moz-linear-gradient(to right,transparent, white, transparent);
 }
 
 /* Screen Sizes */

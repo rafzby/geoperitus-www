@@ -19,22 +19,43 @@
 </head>
 
 <body>
-    <header>
+    <header class="c-top-bar">
         <a href="#">
-            <img class="c-logo" src="gfx/logo.svg">
+            <img class="c-top-bar__logo" src="gfx/logo.svg">
         </a>
-        <nav class="c-navbar">
-            <a class="c-navbar__item" href="#o-firmie">O Firmie</a>
-            <a class="c-navbar__item" href="#oferta">Oferta</a>
-            <a class="c-navbar__item" href="#realizacje">Realizacje</a>
-            <a class="c-navbar__item" href="#galeria">Galeria</a>
-            <a class="c-navbar__item" href="#kontakt">Kontakt</a>
+        <nav class="c-desktop-menu">
+            <a class="c-desktop-menu__item c-menu-item" href="#o-firmie">O Firmie</a>
+            <a class="c-desktop-menu__item c-menu-item" href="#oferta">Oferta</a>
+            <a class="c-desktop-menu__item c-menu-item" href="#realizacje">Realizacje</a>
+            <a class="c-desktop-menu__item c-menu-item" href="#galeria">Galeria</a>
+            <a class="c-desktop-menu__item c-menu-item" href="#kontakt">Kontakt</a>
         </nav>
-        <div class="c-navbar__divider"></div>
-        <img class="c-phone__icon" src="gfx/ic_phone_number.svg">
-        <a class="c-phone__number" href="tel:+48 501 616 088">+48 501 616 088</a>
+        <div class="c-top-bar__divider"></div>
+        <div class="c-desktop-menu__phone">
+            <div claas="c-phone">
+                <img class="c-phone__icon" src="gfx/ic_phone_number.svg">
+                <a class="c-phone__number" href="tel:+48 501 616 088">+48 501 616 088</a>
+            </div>
+        </div>
     </header>
     <main>
+        <section class="c-mobile-menu o-section--2">
+            <div class="o-main">
+                <nav class="c-mobile-menu__nav">
+                    <a class="c-mobile-menu__item c-menu-item" href="#o-firmie">O Firmie</a>
+                    <a class="c-mobile-menu__item c-menu-item" href="#oferta">Oferta</a>
+                    <a class="c-mobile-menu__item c-menu-item" href="#realizacje">Realizacje</a>
+                    <a class="c-mobile-menu__item c-menu-item" href="#galeria">Galeria</a>
+                    <a class="c-mobile-menu__item c-menu-item" href="#kontakt">Kontakt</a>
+                </nav>
+            </div>
+            <div class="c-mobile-menu__phone">
+                <div claas="c-phone">
+                    <img class="c-phone__icon" src="gfx/ic_phone_number.svg">
+                    <a class="c-phone__number" href="tel:+48 501 616 088">+48 501 616 088</a>
+                </div>
+            </div>
+        </section>
         <section class="c-header c-header--background o-section--3 o-section--5--xs o-section--8--m o-section--10--xl">
             <div class="o-main">
                 <div class="c-header__content">
