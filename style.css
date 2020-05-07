@@ -143,6 +143,7 @@ table {
 
 /* Mobile Menu */
 .c-mobile-menu  {
+    display: none;
     width: 100%;
     max-width: 100%;
     text-align: center;
@@ -165,12 +166,16 @@ table {
     font-size: 1.4em;
 }
 
-/* Mobile Menu */
+/* Desktop Menu */
 .c-desktop-menu {
     display: flex;
     flex-grow: 1;
+    align-items: center;
     justify-content: flex-end;
-    align-content: center;
+}
+
+.c-desktop-menu__nav {
+
 }
 
 .c-desktop-menu__item {
