@@ -133,7 +133,7 @@ table {
     text-decoration: none;
     font-family: "openSans";
     font-weight: 600;
-    font-size: 1.3em;
+    font-size: 1rem;
     vertical-align: middle;
 }
 
@@ -168,19 +168,15 @@ table {
 
 /* Desktop Menu */
 .c-desktop-menu {
-    display: flex;
+    display: none;
     flex-grow: 1;
     align-items: center;
     justify-content: flex-end;
 }
 
-.c-desktop-menu__nav {
-
-}
-
 .c-desktop-menu__item {
-    margin-right: 3em;
-    font-size: .8em;
+    margin-right: 1em;
+    font-size: .8rem;
 }
 
 .c-mobile-menu__phone {
@@ -663,6 +659,10 @@ section {
 }
 
 @media screen and (min-width: 640px) {
+    .c-desktop-menu {
+        display: flex;
+    }
+    
     .o-layout__item--1--s {
         width: 8.33%;
     }
@@ -719,6 +719,10 @@ section {
 }
 
 @media screen and (min-width: 784px) {
+    .c-desktop-menu__item {
+        margin-right: 2em;
+    }
+
     .o-layout__item--1--m {
         width: 8.33%;
     }
