@@ -50,13 +50,13 @@ table {
 /* Fonts */
 @font-face {
     font-family: hurmeDesign;
-    src: url(fonts/Hurme\ Design\ -\ HurmeGeometricSans4\ SemiBold_0.otf);
+    src: url(fonts/HurmeGeometricSans4_SemiBold_0.otf);
     font-weight: 600;
 }
 
 @font-face {
     font-family: hurmeDesign;
-    src: url(fonts/Hurme\ Design\ -\ HurmeGeometricSans4\ Bold_0.otf);
+    src: url(fonts/HurmeGeometricSans4_Bold_0.otf);
     font-weight: bold;
 }
 
