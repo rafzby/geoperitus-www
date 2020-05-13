@@ -8,7 +8,6 @@ function toggleMobileMenu() {
     }
 }
 
-
 (function () {
     document.querySelectorAll('.c-mobile-menu__item').forEach(item => {
         item.addEventListener('click', event => {
@@ -16,4 +15,3 @@ function toggleMobileMenu() {
         })
     })
 })();
-
