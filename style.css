@@ -547,11 +547,11 @@ section {
 }
 
 .c-rights__item {
-    padding: 1em;
+    padding: 1.2em;
 }
 
 .c-rights__item__icon {
-    width: 6em;
+    width: 5em;
 }
 
 .c-rights__item__title {
@@ -565,6 +565,7 @@ section {
 .c-rights__item__subtitle {
     font-family: "openSans";
     font-weight: lighter;
+    font-size: .8em;
 }
 
 /* Header */
@@ -960,10 +961,6 @@ section {
     .c-projects--background {
         background: url(gfx/banners/projects/projects_xxl.jpg);
         background-size: cover;
-    }
-
-    :root {
-        font-size: 18px;
     }
 }
 
