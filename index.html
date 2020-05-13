@@ -16,6 +16,7 @@
     <meta name="theme-color" content="#3cb878">
 
     <link rel="stylesheet" href="style.css?v1" />
+    <script type="text/javascript" src="script.js"></script>
 </head>
 
 <body>
@@ -25,9 +26,9 @@
         </a>
 
         <div class="c-top-bar__mobile-content">
-            <div class="c-hamburger">
+            <a href="javascript:void(0);" class="c-hamburger" onclick="toggleMenu()">
                 <img class="c-hamburger__image"src="gfx/ic_hamburger_menu.svg">
-            </div>
+             </a>
         </div>
        
         <div class="c-desktop-menu">
@@ -46,7 +47,7 @@
         </div>
     </header>
     <main>
-        <section class="c-mobile-menu o-section--2">
+        <section id="mobileMenu" class="c-mobile-menu o-section--2 u-hidden">
             <div class="o-main">
                 <nav class="c-mobile-menu__nav">
                     <a class="c-mobile-menu__item c-menu-item" href="#o-firmie">O Firmie</a>

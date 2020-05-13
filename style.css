@@ -82,6 +82,10 @@ table {
     box-sizing: border-box;
 }
 
+.u-hidden {
+    display: none;
+}
+
 .c-top-bar {
     display: flex;
     box-sizing: border-box;
@@ -161,7 +165,6 @@ table {
 
 /* Mobile Menu */
 .c-mobile-menu  {
-    display: none;
     width: 100%;
     max-width: 100%;
     text-align: center;
@@ -678,9 +681,13 @@ section {
 
 @media screen and (min-width: 640px) {
     .c-top-bar__mobile-content {
+        display: none; 
+    }
+
+    .c-mobile-menu {
         display: none;
     }
-    
+
     .c-desktop-menu {
         display: flex;
     }
