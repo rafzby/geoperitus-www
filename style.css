@@ -508,20 +508,22 @@ section {
 
 .c-offer__list {
     font-size: .9rem;
-    line-height: 1.6rem;
+    line-height: 1.7rem;
     font-family: "openSans";
     font-weight: lighter;
 }
 
+.c-offer__list__item {
+    display: flex;
+}
+
 .c-offer__list__item::before {
     content: '\02022';
-    display: inline-block;
     font-size: 1.2em;
-    width: 1em;
     color: #3cb878;
+    margin-right: .4em;
     font-weight: bold;
     vertical-align: middle;
-    line-height: 1.6rem;
 }
 
 /* About Us*/
