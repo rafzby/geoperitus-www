@@ -135,7 +135,8 @@ table {
     background-repeat: no-repeat;
     background-size: contain;
 }
-.c-hamburger:hover, .c-hamburger--active {
+
+.c-hamburger--active {
     background-color: #3cb878;
     background-image: url(gfx/ic_hamburger_white.svg);
 }
