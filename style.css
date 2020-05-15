@@ -152,6 +152,10 @@ table {
     color: inherit;
 }
 
+.c-menu-item:hover {
+    color: #3cb878;
+}
+
 /* Phone */
 .c-phone__icon {
     height: 1.3em;
