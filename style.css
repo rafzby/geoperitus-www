@@ -123,15 +123,21 @@ table {
 }
 
 .c-hamburger {
-    background: #3cb878;
     text-align: center;
     border-radius: 5px;
     width: 2.5em;
     height: 2.5em;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #3cb878;
+    background-image: url(gfx/ic_hamburger_green.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
-
-.c-hamburger__image {
-    max-width: 100%;
+.c-hamburger:hover, .c-hamburger--active {
+    background-color: #3cb878;
+    background-image: url(gfx/ic_hamburger_white.svg);
 }
 
 .c-menu-item {
