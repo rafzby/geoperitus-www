@@ -167,7 +167,7 @@ table {
     text-decoration: none;
     font-family: "openSans";
     font-weight: 600;
-    font-size: 1rem;
+    font-size: .9rem;
     vertical-align: middle;
 }
 
@@ -213,7 +213,7 @@ table {
 }
 
 .c-desktop-menu__phone {
-    margin-left: 2em;
+    margin-left: 1em;
 }
 
 .c-mobile-menu__phone {
@@ -772,6 +772,14 @@ section {
 @media screen and (min-width: 784px) {
     .c-desktop-menu__item {
         margin-right: 2em;
+    }
+    
+    .c-desktop-menu__phone {
+        margin-left: 2em; 
+    }
+
+    .c-phone__number {
+        font-size: 1rem;
     }
 
     .o-layout__item--1--m {
