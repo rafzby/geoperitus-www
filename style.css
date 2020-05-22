@@ -601,17 +601,6 @@ section {
     background-size: cover;
 }
 
-.c-header__divider {
-    display: inline-block;
-    height: .1em;
-    margin: 1em auto;
-    max-width: 100%;
-    width: 15em;
-    background: linear-gradient(to right,transparent, white, transparent);
-    background: -webkit-linear-gradient(to right,transparent, white, transparent);
-    background: -moz-linear-gradient(to right,transparent, white, transparent);
-}
-
 /* Screen Sizes */
 @media screen and (min-width: 320px) {
     .o-layout__item--1--xxs {
@@ -674,17 +663,6 @@ section {
     
     .o-section--10--xs {
         padding: 10rem 0 10rem;
-    }
-    
-    .c-header__divider {
-        display: inline-block;
-        margin: 0 .5em;
-        height: 8em;
-        vertical-align: middle;
-        width: .1em;
-        background: linear-gradient(transparent, white, transparent);
-        background: -webkit-linear-gradient(transparent, white, transparent);
-        background:  -moz-linear-gradient(transparent, white, transparent);
     }
 
     .h1 {
