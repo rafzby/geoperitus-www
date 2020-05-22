@@ -279,9 +279,10 @@ body > footer p {
 }
 
 .h4 {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-family: "openSans";
     font-weight: bold;
+    line-height: 1.4em;
 }
 
 .h5 {
@@ -600,14 +601,6 @@ section {
     background-size: cover;
 }
 
-.c-header__text__container {
-    display: block;
-}
-
-.c-header__text__container  h4 {
-    margin-top: .5em
-}
-
 .c-header__divider {
     display: inline-block;
     height: .1em;
@@ -693,11 +686,13 @@ section {
         background: -webkit-linear-gradient(transparent, white, transparent);
         background:  -moz-linear-gradient(transparent, white, transparent);
     }
-    
-    .c-header__text__container {
-        display: inline-block;
-        vertical-align: middle;
-        width: 18em;
+
+    .h1 {
+        font-size: 6rem;
+    }
+
+    .h4 {
+        font-size: 1.7rem;
     }
 }
 
@@ -766,6 +761,14 @@ section {
     .c-projects--background {
         background: url(gfx/banners/projects/projects_s.jpg);
         background-size: cover;
+    }
+
+    .h1 {
+        font-size: 7rem;
+    }
+
+    .h4 {
+        font-size: 2rem;
     }
 }
 
